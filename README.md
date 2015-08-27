@@ -5,8 +5,8 @@ to investigate https://github.com/typesafehub/migration-manager/issues/78
 ## Setup
 
 to have an artifact to compare to, you'll need to rewind in the git
-history to the initial commit and do `publishLocal`, then return
-to the present.
+history to the initial commit and do `publishLocal` to publish version
+1.0 to your `~/.ivy2/local`. then return to the present.
 
 ## Running MiMa
 
