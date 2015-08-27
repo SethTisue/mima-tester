@@ -4,11 +4,11 @@ name := "mima-test"
 
 organization := "net.tisue"
 
-version := "1.0"
+version := "1.1"
 
 import com.typesafe.tools.mima.plugin.MimaPlugin.mimaDefaultSettings
 import com.typesafe.tools.mima.plugin.MimaKeys.previousArtifact
 
 mimaDefaultSettings
 
-previousArtifact := Some("com.jsuereth" % "scala-arm_2.9.1" % "1.2")
+previousArtifact := Some("net.tisue" %% "mima-test" % "1.0")
