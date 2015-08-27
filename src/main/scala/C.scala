@@ -1,7 +1,7 @@
 class C {
-  def foo() {
-    val f1 = () => ()
-    val f2 = (x: Int) => x * x
-    val f3 = (z: String) => s"$z$z$z"
+  def foo(a: Int) {
+    val f1 = () => a
+    val f2 = (x: Int) => x * a
+    val f3 = (z: String) => s"$z$a$z"
   }
 }
